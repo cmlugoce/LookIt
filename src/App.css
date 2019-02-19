@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body{
+  background: whitesmoke;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 15px;
+
+}
+
+img:hover{
+  transform: scale(1.01);
+  filter: brightness(110%);
+  border: 1px solid purple;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  background: white;
+  
+}
+
+img{
+  border-radius: 10px;
+  
+}
+
+input[type='text']{
+  border-radius: 5px;
+  border: 2px solid purple;
+  height: 25px;
+  width: 50%;
+  margin-right: 2px;
+  padding: 5px;
+}
+
+#submit{
+  border-radius: 5px;
+  padding: 5px 7px;
+  height: 40px;
+  background: purple; 
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+
+  
+
+
+}
+
+#submit:hover{
+ 
+  background: #520252;
+}
+
+.lookit{
+  background: white;
+  padding: 15px;
+  margin-top: -2%;
+  height: 15%;
+  border-bottom: 5px solid purple;
+  color: purple;
+  font-weight: bold;
+  line-height: 58px;
+}
+
+h1{
+  transform: scale(2)
+}
+
+form{
+  background: url(https://discoverpods.com/wp-content/uploads/2017/11/dan-gold-105699.jpg) center center no-repeat;
+  height: 70vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  border-bottom: 5px solid purple;
+
+}
+
+input{
+  margin-top: 10%;
+}
+
+p{
+  color: purple;
+  font-weight: bold;
+  
+}
+
+p:hover{
+  color: violet;
+}
+
+a{
+  text-decoration: none;
+}
+
+@media (max-width: 375px){
+  img{
+    width: 98%;
+  }
+}
