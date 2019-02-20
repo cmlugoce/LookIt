@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import axios from 'axios';
 import Results from './Results'
 const API = `${process.env.REACT_APP_API_KEY}`
@@ -27,7 +27,9 @@ class SearchBar extends React.Component {
     render(){
         return(
             <div className='searchBar'>
+            
              <form onSubmit={this.handleSubmit}>
+              
                  <input type='text' placeholder='Search for images...' value={this.state.searchValue} onChange={this.handleChange}/>
                  <input type='submit'id='submit'/>
              </form>
