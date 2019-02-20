@@ -10,7 +10,7 @@ class Results extends React.Component {
             <div className="results">
           {this.props.results.map(image => (
               <div>
-                  <a href = {image.links.html} alt="unsplash" target="_blank"> 
+                  <a href = {image.links.html} alt="unsplash" target="_blank"  rel='noopener noreferrer'> 
                   <img className="img-list" src={image.urls.small} alt="searchresult"
                        key={image.id}/>
                        <div class="user">
