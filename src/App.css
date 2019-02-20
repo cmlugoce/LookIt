@@ -127,6 +127,23 @@ a{
 
 @media (max-width: 375px){
   img{
-    width: 98%;
+    width: 78%;
   }
+  /* form{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  input{
+    width: 50%;
+  } */
+
+  /* #submit{
+    margin-top: -30%;
+  }
+
+  input[type='text']{
+    width: 60%;
+  } */
 }
