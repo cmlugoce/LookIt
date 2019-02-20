@@ -8,9 +8,11 @@ class App extends Component {
       <div className="App">
         <div className = 'lookit'>
           <h1>LookIt</h1>
+          
           </div>
+          
           <SearchBar/>
-        
+          
         
       </div>
     );
